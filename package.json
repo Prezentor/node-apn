@@ -28,10 +28,11 @@
     "url": "https://github.com/Prezentor/node-apn-legacy.git"
   },
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "debug": "^2.6.8",
     "http2": "https://github.com/node-apn/node-http2/archive/apn-2.1.4.tar.gz",
-    "node-forge": "^0.7.1",
     "jsonwebtoken": "^7.4.1",
+    "node-forge": "^0.7.1",
     "verror": "^1.10.0"
   },
   "devDependencies": {
@@ -55,7 +56,7 @@
     }
   },
   "engines": {
-    "node": ">= 4.6.0"
+    "node": ">= 0.12.18"
   },
   "license": "MIT"
 }
