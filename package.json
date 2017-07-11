@@ -55,7 +55,7 @@
     }
   },
   "engines": {
-    "node": ">= 4.6.0"
+    "node": ">= 0.12.18"
   },
   "license": "MIT"
 }
